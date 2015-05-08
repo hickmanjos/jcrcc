@@ -1,0 +1,239 @@
+body {
+  margin:-20px;
+}
+
+#banner {
+	background-color: #a6c569;
+	width: 950px;
+	height: 159px;
+	margin: 0 auto;
+	padding: 0;
+    
+}
+
+#nav {
+	width: 900px;
+	height: 25px;
+	margin: 0 auto;
+	padding: 0;
+	border-color:#a6c569;
+	border-style:solid;
+    border-width:1px;
+	background: #a6c569;
+}
+
+#menuwrap {
+	height: 40px;
+	padding-bottom:-100px;
+}
+
+ul {
+	margin: 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	line-height: normal;
+    background: #a6c569;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	margin-right: -1px;
+	height: 12px;
+    background: url(http://i.imgur.com/M0J61Ca.png) #a6c569 bottom left repeat-x;
+	padding: 4px 15px 9px 14px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #696969;
+	border: none;
+    border-left: 1px solid #696969;
+    border-right: 1px solid #696969;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.current {
+    padding: 4px 15px 9px 14px;
+    background-repeat:no-repeat;
+    background: #8eb444;
+}
+
+#content, #club_info, #directions, #contact, #field_info{
+    width: 800px;
+	margin: 0 auto;
+    font-family:sans-serif; 
+    float: left;
+	padding: 10px 0 0 50px;
+	margin-top: -20px;
+}
+
+p{
+    padding: 0px 0px 0px 20px;
+    font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #52525B;
+
+}
+p.title{
+    padding: 0px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #f57814;
+
+}
+
+
+#wrapper, #wrapper2 {
+    width: auto;
+	height: auto;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#darkframe{
+    
+    width: 900px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border-color:#add164;
+	border-style:solid;
+    border-width:25px;
+}
+
+#title{
+    padding: 15px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #696969;
+}
+
+p.date{
+    padding: 0px 0px 10px 25px;
+    font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+h1{    
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #696969;
+}
+
+h2{
+    font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#directions h3{
+    font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: -3px;
+	margin-left: 100px;
+}
+
+#directions h3 b {
+    font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8eb444;
+}
+
+h3{
+    font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: -3px;
+}
+
+h3 b {
+    font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8eb444;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+p.title{
+    padding: 0px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: #696969;
+}
+
+p.large{
+    padding: 25px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#right{
+        margin: 0 0 0 302px;
+
+	}
+	
+#left{
+    float: left;
+	width: 310px;
+}
+
+#darkframe p.footer{
+    padding: 0px 0px 0px 25px;
+    font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	font-weight: bold;
+	color: #313131;
+	float: right;
+}
+	
+
+#content img.half { 
+		height:50%;
+		width:50%
+		}	
+		
+#content img.full { 
+		height:90%;
+		width:90%
+		}	
+		
+#stream_bttn, #about_bttn, #faq_bttn, #donate_bttn, #checklist_bttn {
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 3px;
+	margin-right: -5px;
+  /*margin-top: -16px;*/
+}
